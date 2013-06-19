@@ -19,7 +19,7 @@ public class Houses
   {
     Tortoise.setPenColor(Colors.Grays.LightGray);
     Tortoise.move(height);
-    flatRoof();
+    //flatRoof();
     arrowRoof();
     //End
     Tortoise.move(height);
