@@ -19,16 +19,19 @@ public class SimpleSquare
     Tortoise.setAngle(135);
     Tortoise.move(Lettersize);
     Tortoise.setAngle(315);
+    Tortoise.penUp();
     Tortoise.move(Lettersize / 2);
     Tortoise.setAngle(315 - 45);
+    Tortoise.penDown();
     Tortoise.move(35.35);
   }
   public static void LetterB()
   {
     Tortoise.move(Lettersize);
     Tortoise.setAngle(90);
-    Tortoise.move(Lettersize / 1.5);
+    Tortoise.move(Lettersize / 1.52);
     Tortoise.setAngle(180);
     Tortoise.move(Lettersize / 2);
+    Tortoise.setAngle(0);
   }
 }
