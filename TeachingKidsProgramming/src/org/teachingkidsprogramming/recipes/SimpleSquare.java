@@ -1,16 +1,37 @@
 package org.teachingkidsprogramming.recipes;
 
+import org.teachingextensions.logo.Tortoise;
 
 public class SimpleSquare
 {
+  public static float Lettersize = 50;
   public static void main(String[] args) throws Exception
   {
-    //  Show the tortoise --#1
-    //  Make the tortoise move as fast as possible --#6
-    //  Do the following 4 times --#5.1
-    //      Change the color of the line the tortoise draws to "blue" --#4
-    //      Move the tortoise 50 pixels --#2
-    //      Turn the tortoise to the right (90 degrees) --#3
-    //  Repeat --#5.2
+    //All numbers start at the bottom left
+    Tortoise.setSpeed(2);
+    LetterB();
+  }
+  public static void LetterA()
+  {
+    //Makes the letter A
+    Tortoise.setAngle(45);
+    Tortoise.move(Lettersize);
+    Tortoise.setAngle(135);
+    Tortoise.move(Lettersize);
+    Tortoise.setAngle(315);
+    Tortoise.penUp();
+    Tortoise.move(Lettersize / 2);
+    Tortoise.setAngle(315 - 45);
+    Tortoise.penDown();
+    Tortoise.move(35.35);
+  }
+  public static void LetterB()
+  {
+    Tortoise.move(Lettersize);
+    Tortoise.setAngle(90);
+    Tortoise.move(Lettersize / 1.52);
+    Tortoise.setAngle(180);
+    Tortoise.move(Lettersize / 2);
+    Tortoise.setAngle(0);
   }
 }
