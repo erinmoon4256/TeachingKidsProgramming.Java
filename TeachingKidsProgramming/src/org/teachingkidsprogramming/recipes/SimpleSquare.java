@@ -1,9 +1,13 @@
 package org.teachingkidsprogramming.recipes;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import org.teachingextensions.logo.Colors;
 import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.windows.MessageBox;
+=======
+import org.teachingextensions.logo.Tortoise;
+>>>>>>> 15e40837d3dff52804d6d3938f1e55bf3e07d308
 =======
 import org.teachingextensions.logo.Tortoise;
 >>>>>>> 15e40837d3dff52804d6d3938f1e55bf3e07d308
@@ -13,6 +17,7 @@ public class SimpleSquare
   public static float Lettersize = 50;
   public static void main(String[] args) throws Exception
   {
+<<<<<<< HEAD
 <<<<<<< HEAD
     Tortoise.show();
     Tortoise.setSpeed(10);
@@ -25,6 +30,8 @@ public class SimpleSquare
       Tortoise.turn(360.0 * 3 / sides);
     }
 =======
+=======
+>>>>>>> 15e40837d3dff52804d6d3938f1e55bf3e07d308
     //All numbers start at the bottom left
     Tortoise.setSpeed(2);
     LetterB();
@@ -51,6 +58,9 @@ public class SimpleSquare
     Tortoise.setAngle(180);
     Tortoise.move(Lettersize / 2);
     Tortoise.setAngle(0);
+<<<<<<< HEAD
+>>>>>>> 15e40837d3dff52804d6d3938f1e55bf3e07d308
+=======
 >>>>>>> 15e40837d3dff52804d6d3938f1e55bf3e07d308
   }
 }
