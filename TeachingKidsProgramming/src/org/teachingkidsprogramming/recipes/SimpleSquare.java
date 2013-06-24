@@ -3,9 +3,13 @@ package org.teachingkidsprogramming.recipes;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import org.teachingextensions.logo.Colors;
 import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.windows.MessageBox;
+=======
+import org.teachingextensions.logo.Tortoise;
+>>>>>>> 15e40837d3dff52804d6d3938f1e55bf3e07d308
 =======
 import org.teachingextensions.logo.Tortoise;
 >>>>>>> 15e40837d3dff52804d6d3938f1e55bf3e07d308
@@ -24,6 +28,7 @@ public class SimpleSquare
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Tortoise.show();
     Tortoise.setSpeed(10);
     int sides = MessageBox.askForNumericalInput("How many boyfriends do you have??");
@@ -35,6 +40,8 @@ public class SimpleSquare
       Tortoise.turn(360.0 * 3 / sides);
     }
 =======
+=======
+>>>>>>> 15e40837d3dff52804d6d3938f1e55bf3e07d308
 =======
 >>>>>>> 15e40837d3dff52804d6d3938f1e55bf3e07d308
 =======
@@ -67,6 +74,9 @@ public class SimpleSquare
     Tortoise.setAngle(0);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 15e40837d3dff52804d6d3938f1e55bf3e07d308
+=======
 >>>>>>> 15e40837d3dff52804d6d3938f1e55bf3e07d308
 =======
 >>>>>>> 15e40837d3dff52804d6d3938f1e55bf3e07d308
