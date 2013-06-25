@@ -1,5 +1,6 @@
 package org.teachingkidsprogramming.recipes;
 
+import org.teachingextensions.logo.Tortoise;
 
 public class TurtleTree
 {
@@ -21,19 +22,21 @@ public class TurtleTree
     //            A 60 pixel long branch is saddle brown --#14
     //        ------------- End of adjustColor --#16
     //        Move the tortoise the length of the current branch --#1.1
+    int branch = 20
+    Tortoise.move(branch);
     //        drawLowerBranches (recipe below) --#7
-    //        ------------- Recipe for drawLowerBranches --#7
-    //            Turn the Tortoise 30 degrees to the right --#3
-    //            drawShorterBranch (recipe below) --#9
-    //            ------------- Recipe for drawShorterBranch --#9
-    //                drawBranch (10 pixels shorter) --#4
-    //            ------------- End of drawShorterBranch recipe --#9
-    //            Turn the Tortoise 60 degrees to the left --#8
-    //            drawShorterBranch --#10
-    //            Turn the Tortoise 30 degrees to the right --#13
-    //            adjustColor --#17
-    //            Move the tortoise backward the length of the current branch --#12
-    //        ------------- End of drawLowerBranches recipe --#7
+      //        ------------- Recipe for drawLowerBranches --#7
+      //            Turn the Tortoise 30 degrees to the right --#3
+      //            drawShorterBranch (recipe below) --#9
+        //            ------------- Recipe for drawShorterBranch --#9
+        //                drawBranch (10 pixels shorter) --#4
+        //            ------------- End of drawShorterBranch recipe --#9
+      //            Turn the Tortoise 60 degrees to the left --#8
+      //            drawShorterBranch --#10
+      //            Turn the Tortoise 30 degrees to the right --#13
+      //            adjustColor --#17
+      //            Move the tortoise backward the length of the current branch --#12
+      //        ------------- End of drawLowerBranches recipe --#7
     //    ------------- End of drawBranch recipe --#2
   }
 }
